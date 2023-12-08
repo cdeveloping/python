@@ -23,4 +23,23 @@ age, height, name, surname = my_order_list
 print(age) #Imprimirá en este caso el primer valor, el nombre es meramente descriptivo, ya que el programa no sabe que es la edad lo que representa.
 
 
-#### FIN PRIMERA PARTE DE LAS LISTAS ####
+my_order_list.append("cdeveloping") # Al utilizar append, lo que hacemos es añadir un elemento nuevo al final de la lista
+print(my_order_list)
+
+my_order_list.insert(1, "Verde") # Utilizando la opción insert, introduciremos el valor que queremos en la posición que indiquemos.
+print(my_order_list)
+
+my_order_list.remove("Verde") # Remove eliminará el valor que indiquemos, pero solo el primero si está repetido
+print(my_order_list)
+
+
+my_new_list = my_list.copy() # copiamos la lista a la variable que hemos creado.
+
+my_new_list.reverse()
+print(my_new_list)
+
+my_new_list.sort() # Sort nos ordenará la lista de mayor a menor o alfabeticamente dependiendo del tipo de datos.
+print(my_new_list)
+
+
+### Fin de las listas ###

@@ -61,8 +61,7 @@ print(reverse_language[::-1])
 # Funciones
 print(language.capitalize())  #Pone el primer carácter en mayúscula.
 print(language.upper()) # Pone todas los carácteres en mayúscula.
-print(language.capitalize())
-print(language.capitalize())
-print(language.capitalize())
-print(language.capitalize())
+print(language.count("t")) # Cuenta cuantas veces se encuentra un carácter en la variable.
+print(language.isnumeric()) # Devuelve un valor Booleano en este caso dependerá de si es un número o no el contenido de la variable.
+print(language.lower()) # Convierte todo a minusculas.
 

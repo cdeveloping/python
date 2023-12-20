@@ -39,7 +39,7 @@ my_new_list.reverse()
 print(my_new_list)
 
 my_new_list.sort() # Sort nos ordenará la lista de mayor a menor o alfabeticamente dependiendo del tipo de datos.
-print(my_new_list)
+print(my_new_list) 
 
 
 ### Fin de las listas ###
